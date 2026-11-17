@@ -1,0 +1,11 @@
+[package]
+name = "flc-io-adapters"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "flc_snx"
+path = "src/main.rs"
+
+[dependencies]
+flc-core = { path = "../core" }
